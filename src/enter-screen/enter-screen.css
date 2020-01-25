@@ -1,0 +1,35 @@
+.enter-screen{
+    font-family: "Arial", arial, sans-serif;
+    /*display: flex;*/
+    display: block;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+.enter-screen.active{
+    opacity: .7;
+}
+
+.enter-screen-text-main{
+    display: block;
+    text-align: center!important;
+}
+.enter-screen-line{
+    width: 60%;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.enter-screen-text-second{
+    text-align: center!important;
+}

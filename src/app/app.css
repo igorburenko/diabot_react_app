@@ -1,0 +1,40 @@
+.wrapper{
+    font-family: "Arial", arial, sans-serif;
+    text-align: center!important;
+    /*display: flex;*/
+    display: block;
+    width: 86%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.dia-bot{
+    
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+    .dia-bot{
+        max-width: 970px;
+    }
+}
+@media (max-width: 972px) {
+    .dia-bot{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .dia-bot{
+        max-width: none;
+    }
+}
+
+.main-window{
+    z-index: -5;
+}

@@ -1,0 +1,24 @@
+.authentication{
+    font-family: "Arial", arial, sans-serif;
+    text-align: center!important;
+    /*display: flex;*/
+    display: block;
+    /*width: 86%;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*opacity: 0;*/
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
+.my-facebook-button-class{
+    border-radius: 30px;
+    background: #3B5998;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+}

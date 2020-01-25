@@ -1,0 +1,53 @@
+.settings-coefficients-add-list{
+    height: 80px;
+    display: flex;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 5px;
+
+}
+.settings-coefficients-add-list-cell{
+    /*display: inline-flex;*/
+    width: 25%;
+    background-color: rgba(89, 139, 217, 0.4);
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+
+.settings-coefficients-add-list-title{
+    font-size: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+}
+
+.settings-coefficients-add-list-input{
+    display: block;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    outline:none;
+    opacity: .9;
+    text-align: center;
+    font-family: "Arial", arial, sans-serif;
+}
+.settings-coefficients-add-list-input#time:hover{
+
+}
+/* 'X' button for resetting/clearing time */
+input[type=time]::-webkit-clear-button {
+    display: none;
+}
+/* Up/Down arrows for incrementing/decrementing the value */
+input[type=time]::-webkit-inner-spin-button {
+    display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    display: none;
+}

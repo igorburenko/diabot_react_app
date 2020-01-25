@@ -1,0 +1,49 @@
+.header-burger {
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+    .burger-wrapper {
+        display: block;
+        position: relative;
+        right: 30px;
+        top: -26px;
+    }
+
+    .header-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        top: -4px;
+    }
+
+    .header-burger span {
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+
+    .header-burger:before,
+    .header-burger:after {
+        content: '';
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+
+    .header-burger:before {
+        top: 0;
+    }
+
+    .header-burger:after {
+        bottom: 0;
+    }
+}
